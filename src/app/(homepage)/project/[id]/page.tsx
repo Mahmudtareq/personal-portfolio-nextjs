@@ -8,7 +8,6 @@ import React from "react";
 const ProjectDetails = async ({ params }: any) => {
   const data = await getProjectData();
   const sinleProject = data.find((item) => item.id === parseInt(params.id));
-  console.log(sinleProject);
   return (
     <div className="w-full mx-auto max-w-[1040px] my-4 p-3">
       <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">

@@ -93,7 +93,7 @@ const MenuItem = () => {
           <div>
             <Button variant="customButton" className="rounded-full ">
               <Link
-                href="https://docs.google.com/document/d/1Vk96fGeZOek9Dnagn4AMIYkaZ-OdD83u4MKtSYvHBTA/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1gRnCeTfCli2-EPy4q9laB5FFs19NVWfWGrOSf9EQ5nY/edit?usp=sharing"
                 target="_blank"
               >
                 {" "}

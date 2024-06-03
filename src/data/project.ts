@@ -1,7 +1,7 @@
-
-import image1 from'@/assert/E-Shop_1.png'
+import image1 from "@/assert/E-Shop_1.png";
 import image2 from "@/assert/smartmockups_lwylt29f.jpg";
 import image3 from "@/assert/DISASTER RELIFE1.png";
+import image4 from "@/assert/helth.jpg";
 const project = [
   {
     id: 1,
@@ -40,13 +40,13 @@ const project = [
   },
   {
     id: 3,
-    image: image1,
-    title: "Project Three",
+    image: image4,
+    title: "Health Revolation",
     description:
-      "This is a description of Project Three. It is a desktop application for managing personal finances.",
-    technology: ["Python", "Tkinter", "SQLite"],
-    liveSiteLink: "https://example.com/project3",
-    githubLink: "https://github.com/username/project3",
+      "Health Revolution is a comprehensive desktop application designed to help users manage and improve their health and wellness. The application offers features such as tracking diet and nutrition, monitoring physical activities, setting health goals, and providing insights and recommendations based on user data.",
+    technology: ["HTML", "CSS", "Javascript", "React Js","React-router-dom", "Bootstrep 5"],
+    liveSiteLink: "https://health-revolation.web.app/",
+    githubLink: "https://github.com/Mahmudtareq/health-care-diagnostic",
   },
 ];
 

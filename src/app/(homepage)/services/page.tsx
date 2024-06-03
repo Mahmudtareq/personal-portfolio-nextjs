@@ -3,8 +3,8 @@ import React from "react";
 
 const ServicesPage = () => {
   return (
-    <div>
-      <h1>all services</h1>
+    <div className="w-full mx-auto max-w-[1140px] my-4 p-3">
+      <h1>Working ...............</h1>
     </div>
   );
 };
