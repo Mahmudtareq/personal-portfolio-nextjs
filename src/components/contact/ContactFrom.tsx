@@ -3,7 +3,7 @@ import { ChevronDownIcon } from "lucide-react";
 
 const ContactFrom = () => {
   return (
-    <div className=" bg-gray-200 dark:bg-gray-500 p-4 rounded">
+    <div className=" bg-gray-200 dark:bg-gray-900 p-4 rounded">
       <form action="#" className="">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -99,7 +99,7 @@ const ContactFrom = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block text-sm font-semibold leading-6 text-gray-900"
+              className="block text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100"
             >
               Message
             </label>

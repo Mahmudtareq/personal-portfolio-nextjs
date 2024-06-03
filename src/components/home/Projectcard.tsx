@@ -17,7 +17,7 @@ const Projectcard = () => {
       />
       <div className="flex items-center justify-between my-4 pt-2">
         <h4 className="text-[#86efac] text-lg font-bold">All Projects</h4>
-        <Link href="#">
+        <Link href="/project">
           <ArrowRightToLine />
         </Link>
       </div>

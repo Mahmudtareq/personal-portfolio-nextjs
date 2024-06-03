@@ -53,6 +53,17 @@ const SkillsTools = () => {
         </div>
         <div className="flex flex-col">
           <div className="mb-1 text-base font-medium dark:text-white">
+            TypeScript
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2 mb-4 dark:bg-gray-700">
+            <div
+              className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-2 rounded-full dark:bg-gray-300"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="mb-1 text-base font-medium dark:text-white">
             Taliwind CSS
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2 mb-4 dark:bg-gray-700">
@@ -70,6 +81,28 @@ const SkillsTools = () => {
             <div
               className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-2 rounded-full dark:bg-gray-300"
               style={{ width: "65%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="mb-1 text-base font-medium dark:text-white">
+            Github
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2 mb-4 dark:bg-gray-700">
+            <div
+              className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-2 rounded-full dark:bg-gray-300"
+              style={{ width: "75%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="mb-1 text-base font-medium dark:text-white">
+            VScode
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2 mb-4 dark:bg-gray-700">
+            <div
+              className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-2 rounded-full dark:bg-gray-300"
+              style={{ width: "85%" }}
             ></div>
           </div>
         </div>

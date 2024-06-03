@@ -44,7 +44,7 @@ const MenuItem = () => {
               href="/"
               className={`${
                 pathname === "/"
-                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-fuchsia-500 md:dark:hover:text-fuchsia-400 dark:hover:bg-gray-700 dark:hover:dark:hover:text-fuchsia-400 md:dark:hover:bg-transparent"
                   : "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               } `}
               aria-current="page"
@@ -57,7 +57,7 @@ const MenuItem = () => {
               href="/about"
               className={`${
                 pathname === "/about"
-                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-fuchsia-500 md:dark:hover:text-fuchsia-400 dark:hover:bg-gray-700 dark:hover:dark:hover:text-fuchsia-400 md:dark:hover:bg-transparent"
                   : "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               }  `}
             >
@@ -69,7 +69,7 @@ const MenuItem = () => {
               href="/contact"
               className={`${
                 pathname === "/contact"
-                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-fuchsia-500 md:dark:hover:text-fuchsia-400 dark:hover:bg-gray-700 dark:hover:dark:hover:text-fuchsia-400 md:dark:hover:bg-transparent"
                   : "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               }  `}
             >
@@ -81,7 +81,7 @@ const MenuItem = () => {
               href="/blog"
               className={`${
                 pathname === "/blog"
-                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  ? "text-blue-500 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-fuchsia-500 md:dark:hover:text-fuchsia-400 dark:hover:bg-gray-700 dark:hover:dark:hover:text-fuchsia-400 md:dark:hover:bg-transparent"
                   : "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               }  `}
             >
@@ -92,7 +92,13 @@ const MenuItem = () => {
         <div className="flex items-center space-x-2 mt-4 lg:mt-0">
           <div>
             <Button variant="customButton" className="rounded-full ">
-              Resume
+              <Link
+                href="https://docs.google.com/document/d/1Vk96fGeZOek9Dnagn4AMIYkaZ-OdD83u4MKtSYvHBTA/edit?usp=sharing"
+                target="_blank"
+              >
+                {" "}
+                Download Resume
+              </Link>
             </Button>
           </div>
           <ToggleButton />
